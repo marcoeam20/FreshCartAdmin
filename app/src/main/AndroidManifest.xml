@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shopwise.freshcartadmin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UsersActivity" />
+        <activity android:name=".ProductsActivity" />
+        <activity android:name=".NewOrdersActivity" />
+        <activity android:name=".DeliveredOrdersActivity" />
+        <activity android:name=".CancelledOrdersActivity" />
+        <activity android:name=".ReportsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Customers" />
+        <activity android:name=".Drivers" />
+        <activity android:name=".SalesReport" />
+        <activity android:name=".DeliveryReport" />
+        <activity android:name=".InventoryReport"></activity>
+    </application>
+
+</manifest>
